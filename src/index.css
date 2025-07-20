@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+@layer components {
+  .heading-style {
+    @apply uppercase text-xl text-gray-600 font-elegant px-6 md:px-20 py-4 md:py-5;
+  }
+
+  .subtext-style {
+    @apply uppercase text-sm text-gray-600 font-bold items-center justify-center text-center py-5;
+  }
+}
+
+/* Animation keyframes */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation classes */
+.slide-in-left {
+  animation: slideInLeft 1.5s ease forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 1.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes glowIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0 0 0px #00f, 0 0 0px #00f;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 10px #00f, 0 0 20px #00f;
+  }
+}
+
+.glow-in {
+  animation: glowIn 3s ease-out forwards;
+}
+
+
