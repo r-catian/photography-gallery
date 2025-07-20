@@ -4,7 +4,7 @@ import loyd from '../assets/loyd.JPG';
 import ron from '../assets/ron.JPG';
 import genaro from '../assets/genaro.JPG';
 import road from '../assets/road.jpg';
-import condat from '../assets/condat.jpg';
+import condat from '../assets/condat.JPG';
 import josh from '../assets/josh.JPG';
 import dream from '../assets/dream.JPG';
 import { useState, useEffect } from 'react';
