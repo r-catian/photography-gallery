@@ -28,14 +28,15 @@ export default function GalleryCard({ image, title, slug }) {
       <img
         src={image}
         alt={title}
+        loading="lazy"
         className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center text-white">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
         <button
-          to={`/gallery/${slug}`}
-          className="px-4 py-2 bg-white text-black font-semibold rounded hover:bg-gray-200 transition" onClick={handleClick}
-        >
+             className="px-4 py-2 bg-white text-black font-semibold rounded hover:bg-gray-200 transition"
+            onClick={handleClick}
+          >
           View Gallery
         </button>
       </div>
