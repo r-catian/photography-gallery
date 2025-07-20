@@ -1,18 +1,54 @@
 import GalleryCard from '../component/GalleryCard.jsx';
-import main2 from '../assets/main-2.jpg';
-import main3 from '../assets/main-3.jpg';
+import nara from '../assets/nara.jpg';
+import loyd from '../assets/loyd.JPG';
+import ron from '../assets/ron.JPG';
+import genaro from '../assets/genaro.JPG';
+import road from '../assets/road.jpg';
+import condat from '../assets/condat.jpg';
+import josh from '../assets/josh.JPG';
+import dream from '../assets/dream.JPG';
 import { useState, useEffect } from 'react';
 
 const galleryItems = [
   {
-    image: main2,
-    title: 'Dani & Ryan Wedding',
-    slug: 'dani-ryan',
+    image: nara,
+    title: 'Nara-Kyoto Japan',
+    slug: 'Nara-Japan',
   },
   {
-    image: main3,
-    title: 'Urban Streets',
-    slug: 'urban-streets',
+    image: loyd,
+    title: 'Street Snapshots',
+    slug: 'Street-Snapshots',
+  },
+  {
+    image: ron,
+    title: 'Pre-Birthday Photoshoot',
+    slug: 'Ron Pre-Birthday PhotoShoot',
+  },
+  {
+    image: genaro,
+    title: 'Autumn Through My Lens',
+    slug: 'Autumn Through My Lens',
+  },
+  {
+    image: road,
+    title: 'Quiet Corners of Japan',
+    slug: 'Quiet Corners of Japan',
+  },
+  {
+    image: condat,
+    title: 'Layers & Laughter',
+    slug: 'Layers & Laughter',
+  },
+  {
+    image: josh,
+    title: 'A Walk To Remember',
+    slug: 'A Walk To Remember',
+  },
+  {
+    image: dream,
+    title: 'Shot by me. Felt by you',
+    slug: 'Shot by me. Felt by you',
   },
 ];
 

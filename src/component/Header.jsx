@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
-import { useLocation } from 'react-router-dom'; // <-- Ito ang idagdag
-
+import { Link, useLocation } from 'react-router-dom'; // <-- Ito ang idagdag
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +12,7 @@ export default function Header() {
          <header className="sticky top-0 z-50 bg-white shadow-md flex items-center justify-between px-6 md:px-20 py-4 md:py-5">
       {/* Logo sa kaliwa */}
         <div className="font-elegant text-black text-2xl select-none tracking-wide uppercase ">
-          <a href="/">RA Photography</a>
+          <Link to="/">RA Photography</Link>
         </div>
 
         {/* Hamburger menu button */}
@@ -26,10 +25,10 @@ export default function Header() {
       {!isGallery && (
   <nav className="hidden md:flex space-x-8 font-poppins uppercase text-sm text-black">
     <ul className="flex space-x-6">
-      <li><a href="#" className="hover:underline">Home</a></li>
-      <li><a href="#about" className="hover:underline">About</a></li>
+      <li><Link to="/" className="hover:underline">Home</Link></li>
+      <li><a href="/about" className="hover:underline">About</a></li>
       <li><a href="/gallery" className="hover:underline">Gallery</a></li>
-      <li><a href="#contact" className="hover:underline">Contact</a></li>
+      <li><a href="/contact" className="hover:underline">Contact</a></li>
     </ul>
   </nav>
   )}
@@ -39,7 +38,7 @@ export default function Header() {
         {isOpen && !isGallery && (
       <nav className="absolute top-full left-0 w-full bg-white shadow-md md:hidden z-10">
         <ul className="flex flex-col items-center gap-4 py-4 font-sans-serif uppercase text-black">
-          <li><a href="#" onClick={() => setIsOpen(false)}>Home</a></li>
+          <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="/gallery" onClick={() => setIsOpen(false)}>Gallery</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
