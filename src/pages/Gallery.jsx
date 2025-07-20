@@ -4,7 +4,7 @@ import loyd from '../assets/loyd.JPG';
 import ron from '../assets/ron.JPG';
 import genaro from '../assets/genaro.JPG';
 import road from '../assets/road.jpg';
-import condat from '../assets/condat.JPG';
+import rolando from '../assets/rolando.JPG';
 import josh from '../assets/josh.JPG';
 import dream from '../assets/dream.JPG';
 import { useState, useEffect } from 'react';
@@ -36,7 +36,7 @@ const galleryItems = [
     slug: 'Quiet Corners of Japan',
   },
   {
-    image: condat,
+    image: rolando,
     title: 'Layers & Laughter',
     slug: 'Layers & Laughter',
   },

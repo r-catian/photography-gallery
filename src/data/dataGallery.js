@@ -1,11 +1,11 @@
-const narraKyotoImages = import.meta.glob("../assets/nara-kyoto/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const snapShots = import.meta.glob("../assets/loyd-photography/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const ronShots = import.meta.glob("../assets/birthday-photoShoot/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const genaroShots = import.meta.glob("../assets/cagats/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const roadCornerShots = import.meta.glob("../assets/road-corner/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const condatShots = import.meta.glob("../assets/condat/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const joshShots = import.meta.glob("../assets/joshua/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
-const dreamShots = import.meta.glob("../assets/dream/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, as: 'url' });
+const narraKyotoImages = import.meta.glob("../assets/nara-kyoto/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const snapShots = import.meta.glob("../assets/loyd-photography/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const ronShots = import.meta.glob("../assets/birthday-photoShoot/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const genaroShots = import.meta.glob("../assets/cagats/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const roadCornerShots = import.meta.glob("../assets/road-corner/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const condatShots = import.meta.glob("../assets/condat/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const joshShots = import.meta.glob("../assets/joshua/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
+const dreamShots = import.meta.glob("../assets/dream/*.{jpg,jpeg,png,JPG,JPEG,PNG,RAF}", { eager: true, query: '?url', import: 'default' });
 
 export const dataGallery = {
   'Nara-Japan': Object.values(narraKyotoImages),
