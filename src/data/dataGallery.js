@@ -14,6 +14,7 @@ export const dataGallery = {
   'Autumn Through My Lens': Object.values(genaroShots),
   'Quiet Corners of Japan': Object.values(roadCornerShots),
   'Layers & Laughter': Object.values(condatShots),
+  'A Walk To Remember': Object.values(joshShots),
   'Shot by me. Felt by you': Object.values(dreamShots),
 };
 
