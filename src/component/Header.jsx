@@ -39,9 +39,9 @@ export default function Header() {
       <nav className="absolute top-full left-0 w-full bg-white shadow-md md:hidden z-10">
         <ul className="flex flex-col items-center gap-4 py-4 font-sans-serif uppercase text-black">
           <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
-          <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
+          <li><a href="/about" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="/gallery" onClick={() => setIsOpen(false)}>Gallery</a></li>
-          <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+          <li><a href="/contact" onClick={() => setIsOpen(false)}>Contact</a></li>
         </ul>
   </nav>
 )}
