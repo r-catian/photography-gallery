@@ -11,7 +11,7 @@ export default function GalleryCard({ image, title, slug }) {
 
     setTimeout(() => {
       navigate(`/gallery/${slug}`);
-    }, 300); // 1.5 seconds delay
+    }, 300); // 0.3 seconds delay
   };
 
   // Show a loading spinner or message while loading
@@ -29,6 +29,9 @@ export default function GalleryCard({ image, title, slug }) {
         src={image}
         alt={title}
         loading="lazy"
+        width="400"
+        height="256"
+        decoding="async"
         className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center text-white">
