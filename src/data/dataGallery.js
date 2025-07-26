@@ -1,5 +1,5 @@
 export const dataGallery = {
-  "birthday-photoShoot": [
+  "Pre-Birthday-PhotoShoot": [
     "/thumbs/birthday-photoShoot/_DSF2819-2.JPG",
     "/thumbs/birthday-photoShoot/_DSF2819.JPG",
     "/thumbs/birthday-photoShoot/_DSF2821.JPG",
@@ -8,7 +8,7 @@ export const dataGallery = {
     "/thumbs/birthday-photoShoot/_DSF2840.JPG",
     "/thumbs/birthday-photoShoot/_DSF2842.JPG"
   ],
-  "cagats": [
+  "Autumn Through My Lens": [
     "/thumbs/cagats/_DSF3038.webp",
     "/thumbs/cagats/_DSF3040.webp",
     "/thumbs/cagats/_DSF3041.webp",
@@ -20,20 +20,20 @@ export const dataGallery = {
     "/thumbs/cagats/_DSF3048.webp",
     "/thumbs/cagats/_DSF3049.webp"
   ],
-  "condat": [
+  "Layers & Laughter": [
     "/thumbs/condat/DSCF3054.webp",
     "/thumbs/condat/_DSF3050.webp",
     "/thumbs/condat/_DSF3051.webp",
     "/thumbs/condat/_DSF3063.webp",
     "/thumbs/condat/_DSF3064.webp"
   ],
-  "dream": [
+  "Shot by me. Felt by you": [
     "/thumbs/dream/BAEU5540.webp",
     "/thumbs/dream/FDRB3983.webp",
     "/thumbs/dream/MWLY4097.webp",
     "/thumbs/dream/RNWC0774.webp"
   ],
-  "joshua": [
+  "A Walk To Remember": [
     "/thumbs/joshua/_DSF2533.webp",
     "/thumbs/joshua/_DSF2544.webp",
     "/thumbs/joshua/_DSF2551.webp",
@@ -45,7 +45,7 @@ export const dataGallery = {
     "/thumbs/joshua/_DSF2662.webp",
     "/thumbs/joshua/_DSF2665.webp"
   ],
-  "loyd-photography": [
+  "Street Snapshots": [
     "/thumbs/loyd-photography/DSCF2896.webp",
     "/thumbs/loyd-photography/DSCF2897.webp",
     "/thumbs/loyd-photography/DSCF2898.webp",
@@ -55,7 +55,7 @@ export const dataGallery = {
     "/thumbs/loyd-photography/DSCF2929.webp",
     "/thumbs/loyd-photography/DSCF2937.webp"
   ],
-  "nara-kyoto": [
+  "Nara-Kyoto Japan": [
     "/thumbs/nara-kyoto/_DSF2564.webp",
     "/thumbs/nara-kyoto/_DSF2578.webp",
     "/thumbs/nara-kyoto/_DSF2649.webp",
@@ -63,7 +63,7 @@ export const dataGallery = {
     "/thumbs/nara-kyoto/_DSF2687.webp",
     "/thumbs/nara-kyoto/_DSF2690.webp"
   ],
-  "road-corner": [
+  "Quiet Corners of Japan": [
     "/thumbs/road-corner/DSCF3791.webp",
     "/thumbs/road-corner/DSCF3792.webp",
     "/thumbs/road-corner/DSCF3793.webp",
