@@ -13,42 +13,42 @@ const galleryItems = [
   {
     image: nara,
     title: 'Nara-Kyoto Japan',
-    slug: 'Nara-Japan',
+    slug: 'nara-kyoto',
   },
   {
     image: loyd,
     title: 'Street Snapshots',
-    slug: 'Street-Snapshots',
+    slug: 'loyd-photography',
   },
   {
     image: ron,
     title: 'Pre-Birthday Photoshoot',
-    slug: 'Ron Pre-Birthday PhotoShoot',
+    slug: 'birthday-photoShoot',
   },
   {
     image: genaro,
     title: 'Autumn Through My Lens',
-    slug: 'Autumn Through My Lens',
+    slug: 'cagats',
   },
   {
     image: road,
     title: 'Quiet Corners of Japan',
-    slug: 'Quiet Corners of Japan',
+    slug: 'road-corner',
   },
   {
     image: rolando,
     title: 'Layers & Laughter',
-    slug: 'Layers & Laughter',
+    slug: 'condat',
   },
   {
     image: josh,
     title: 'A Walk To Remember',
-    slug: 'A Walk To Remember',
+    slug: 'joshua',
   },
   {
     image: dream,
     title: 'Shot by me. Felt by you',
-    slug: 'Shot by me. Felt by you',
+    slug: 'dream',
   },
 ];
 

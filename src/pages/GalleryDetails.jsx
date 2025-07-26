@@ -3,6 +3,9 @@ import { dataGallery } from '../data/dataGallery.js';
 import { useState } from 'react'; // <-- Add this!
 
 export default function GalleryDetails() {
+
+
+
   const { slug } = useParams();
   const images = dataGallery[slug] || [];
   const [selectedImg, setSelectedImg] = useState(null); // <-- For zoom modal
@@ -18,7 +21,7 @@ export default function GalleryDetails() {
 
   return (
     <section className="max-w-6xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">{slug.replace('-', ' ')}</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">{slug.replace(/-/g, ' ')}</h1>
 
       {/* Image Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -26,7 +29,7 @@ export default function GalleryDetails() {
           <img
             key={index}
             src={imgSrc}
-            alt={`${slug} image ${index + 1}`}
+            alt={`${slug.replace(/-/g, ' ')} image ${index + 1}`}
             className="w-full h-full object-cover object-center sm:h-64 md:h-72 rounded cursor-zoom-in hover:scale-105 transition"
             onClick={() => setSelectedImg(imgSrc)}
           />
